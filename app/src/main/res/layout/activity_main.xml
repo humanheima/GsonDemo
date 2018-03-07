@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hm.jsondemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_fastjson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="fast json"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="gson"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_jackjson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="jackjson"
+        android:textAllCaps="false" />
+
+</LinearLayout>

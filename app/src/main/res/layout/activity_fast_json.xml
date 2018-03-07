@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.hm.jsondemo.FastJsonActivity">
+
+        <Button
+            android:id="@+id/btn_simple_encode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="@string/simple_encode"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_simple_decode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="@string/simple_decode"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_encode_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="@string/encode_date"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_test_JSONField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="@string/test_jsonfield"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</layout>
+

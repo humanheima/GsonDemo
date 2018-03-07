@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JsonDemo</string>
+    <string name="simple_encode">simple encode</string>
+    <string name="simple_decode">simple_decode</string>
+    <string name="encode_date">encode date</string>
+    <string name="test_jsonfield">test JSONField</string>
+</resources>
