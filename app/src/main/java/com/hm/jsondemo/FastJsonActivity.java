@@ -61,9 +61,9 @@ public class FastJsonActivity extends AppCompatActivity {
         String json = JSON.toJSONString(guestUser);
         Log.e(TAG, json);
 
-        /*String json = "{\"id\":2,\"addr\":\"shanghai\"}";
-        User user = JSON.parseObject(json, User.class);
-        Log.e(TAG, user.getAddress());*/
+        String jsonStr = "{\"id\":2,\"addr\":\"shanghai\"}";
+        User user = JSON.parseObject(jsonStr, User.class);
+        Log.e(TAG, user.getAddress());
     }
 
     private void encodeDate() {
@@ -102,5 +102,9 @@ public class FastJsonActivity extends AppCompatActivity {
         Map<String, User> map = JSON.parseObject(genericJson, new TypeReference<Map<String, User>>() {
         });
         Log.e(TAG, map.get("user").toString());
+
+        String userJson = "{\"address\":\"Beijing\",\"id\":24}";
+        User user = JSON.parseObject(userJson, User.class);
+        Log.e(TAG, user.toString());
     }
 }

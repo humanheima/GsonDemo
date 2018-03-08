@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 public class User {
 
     private Long id;
-    @JSONField(name = "address", alternateNames = {"addr", "add"})
+
     private String address;
 
     public Long getId() {
@@ -20,6 +20,7 @@ public class User {
         return address;
     }
 
+    @JSONField(deserialize = false)
     public void setAddress(String address) {
         this.address = address;
     }
