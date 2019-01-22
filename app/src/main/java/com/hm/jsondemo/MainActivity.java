@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_gson:
                 break;
-            case R.id.btn_jackjson:
+            case R.id.btnJackson:
+                JacksonActivity.launch(this);
                 break;
             default:
                 break;

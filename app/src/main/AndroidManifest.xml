@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".JacksonActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +19,7 @@
         </activity>
         <activity android:name=".FastJsonActivity" />
         <activity android:name=".GsonActivity" />
-        <activity android:name=".JackJsonActivity"></activity>
+        <activity android:name=".JackJsonActivity" />
     </application>
 
 </manifest>
