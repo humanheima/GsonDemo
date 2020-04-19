@@ -8,6 +8,14 @@
         android:layout_height="match_parent"
         tools:context="com.hm.jsondemo.GsonActivity">
 
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#333333"
+            tools:text="转化结果" />
+
     </LinearLayout>
 
 </layout>

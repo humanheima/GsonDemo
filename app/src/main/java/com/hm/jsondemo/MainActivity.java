@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
                 FastJsonActivity.launch(this);
                 break;
             case R.id.btn_gson:
+                GsonActivity.launch(this);
                 break;
             case R.id.btnJackson:
                 JacksonActivity.launch(this);
