@@ -1,5 +1,7 @@
 package com.hm.jsondemo.beans;
 
+import android.util.Log;
+
 /**
  * Created by dumingwei on 2020/5/23.
  * <p>
@@ -7,11 +9,29 @@ package com.hm.jsondemo.beans;
  */
 public class Category {
 
+    private static final String TAG = "Category";
     private String contentType;
     private String coverPath;
     private int id;
     private String title;
     private String url = "http://baidu.com";
+
+
+    public Category() {
+        Log.d(TAG, "Category: no argus construct");
+
+    }
+
+    public Category(String contentType, String coverPath, int id, String title, String url) {
+        Log.d(TAG, "Category: construct");
+        this.contentType = contentType;
+        this.coverPath = coverPath;
+        this.id = id;
+        this.title = title;
+        this.url = url;
+
+
+    }
 
     public String getContentType() {
         return contentType;

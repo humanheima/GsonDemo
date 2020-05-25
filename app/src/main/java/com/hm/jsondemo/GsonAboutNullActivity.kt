@@ -44,7 +44,7 @@ class GsonAboutNullActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gson_about_null)
 
-        category = Category()
+        category = Category(null, null, 0, null, null)
         tvResult.text = category.toString()
 
 
