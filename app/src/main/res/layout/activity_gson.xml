@@ -2,10 +2,10 @@
 <layout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         tools:context="com.hm.jsondemo.GsonActivity">
 
         <TextView
@@ -15,6 +15,34 @@
             android:padding="16dp"
             android:textColor="#333333"
             tools:text="转化结果" />
+
+        <Button
+            android:id="@+id/btnConvertMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Map集合映射"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnConvertSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set集合映射"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnMatchMultiField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="反序列化过程中匹配多个字段的问题"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnPolymorphic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="解析多态对象"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 

@@ -1,0 +1,16 @@
+{
+  "contentType": "music",
+  "coverPath": "http://xxx.png",
+  "id": 99,
+  "title": "音乐让我自由",
+  "url": "http://ali.com"
+}
+
+{
+  "contentType": "music",
+  "coverPath": "http://xxx.png",
+  "id": 99,
+  "title": "音乐让我自由",
+  "url": null
+}
+

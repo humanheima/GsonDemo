@@ -24,6 +24,14 @@
         android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/btnGsonAboutNull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="gson关于null的处理"
+        android:textAllCaps="false" />
+
+    <Button
         android:id="@+id/btnJackson"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

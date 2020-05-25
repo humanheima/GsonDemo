@@ -1,7 +1,7 @@
 package com.hm.jsondemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_gson:
                 GsonActivity.launch(this);
+                break;
+            case R.id.btnGsonAboutNull:
+                GsonAboutNullActivity.launch(this);
                 break;
             case R.id.btnJackson:
                 JacksonActivity.launch(this);
